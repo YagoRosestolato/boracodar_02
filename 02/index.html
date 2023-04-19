@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Lato:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <section class="imagem">
+      <div class="sofa">
+        <img src="https://i.ibb.co/z6kDW3p/sofa.png">
+        <button class="botao360" onclick="toggle()">
+          <img src="https://i.ibb.co/x6rdh44/vector.png">
+        </button>
+      </div>
+    </section>
+    <section class="texto">
+      <div class="conteudo-texto">
+        <p id="codigo">CÓDIGO: 42404</p>
+        <h1>Sofá Margot II - Rosé</h1>
+        <h4>R$ 4.000</h4>
+      </div>
+      <button>Adicionar a cesta</button>
+
+    </section>
+  </main>
+      <script>
+      function toggle() {
+        document.documentElement.classList.toggle("animated")
+      }
+    </script>
+</body>
+</html>
